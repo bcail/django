@@ -89,10 +89,6 @@ class DatabaseFeatures(BaseDatabaseFeatures):
                 "db_functions.comparison.test_least.LeastTests."
                 "test_coalesce_workaround",
             },
-            "Running on MySQL requires utf8mb4 encoding (#18392).": {
-                "model_fields.test_textfield.TextFieldTests.test_emoji",
-                "model_fields.test_charfield.TestCharField.test_emoji",
-            },
             "MySQL doesn't support functional indexes on a function that "
             "returns JSON": {
                 "schema.tests.SchemaTests.test_func_index_json_key_transform",
